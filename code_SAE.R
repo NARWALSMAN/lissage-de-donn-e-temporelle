@@ -114,7 +114,7 @@ lines(ycvs,col="red")
 legend(x="bottomleft",legend=c("donnees","lissage exponnentiel","ycvs","predict"),col=c("black","green","red","blue"),lty=1:1)
 
 
-plot(predict)
+plot(predict,type="l",ylab="Nombre de touristes(millions)",xlab="Periode Etudiée(numero mois)",main = "Lissage exponentiel appliqué a la fréquentation touristique")
 #Etude des residus 
 
 T<-1:108
